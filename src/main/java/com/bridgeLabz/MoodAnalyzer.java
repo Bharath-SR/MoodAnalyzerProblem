@@ -14,6 +14,6 @@ public class MoodAnalyzer {
 
     public static void main(String[] args) {
         MoodAnalyzer md=new MoodAnalyzer();
-        System.out.println(md.validate("I am in Any Mood"));
+        System.out.println(md.validate("I Am in Any Mood"));
     }
 }
