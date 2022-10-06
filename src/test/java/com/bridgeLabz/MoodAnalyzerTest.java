@@ -9,4 +9,10 @@ public class MoodAnalyzerTest {
         MoodAnalyzer moodAnalyser = new MoodAnalyzer();
         Assert.assertEquals("sad",moodAnalyser.validate("I am in sad mood "));
     }
+    @Test
+    public void checking_Mood_Analyser_Returns_happy(){
+        MoodAnalyzer moodAnalyser = new MoodAnalyzer();
+        Assert.assertEquals("happy",moodAnalyser.validate("I am in Any Mood"));
+    }
+
 }
