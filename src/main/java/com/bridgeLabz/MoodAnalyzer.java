@@ -34,8 +34,8 @@ public static void main(String[] args) {
         }else{
             System.out.println("Sad");
         }
-    }catch(CustomExceptions ex){
-        System.out.println(ex);
+    }catch(CustomExceptions exp){
+        System.out.println(exp);
     }
 }
 }
